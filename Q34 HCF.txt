@@ -1,0 +1,11 @@
+<?php
+$num1=56;
+$num2=98;
+while($num2!=0){
+$temp=$num2;
+$num2=$num1%$num2;
+$num1=$temp;
+}
+echo"HCF is:.$num1";
+echo "This program is done by Sahil Rupani(2220100301)";
+?>

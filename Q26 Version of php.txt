@@ -1,0 +1,8 @@
+<?php
+
+	echo 'Current PHP version: ' . phpversion();
+echo "<br>";
+echo "This program is done by Sahil Rupani(2220100301)";
+
+	
+?>

@@ -1,0 +1,13 @@
+<?php
+
+    $a = 1.234;
+    var_dump($a);
+    
+    $b = 10.2e3;
+    var_dump($b);
+    echo "<br>";
+
+    echo "Code done by Sahil Rupani(2220100301)";
+
+
+?>
