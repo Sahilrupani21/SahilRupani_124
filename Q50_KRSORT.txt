@@ -1,0 +1,5 @@
+<?php
+$age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
+krsort($age);
+echo"Code done by Sahil Rupani(2220100301)";
+?>

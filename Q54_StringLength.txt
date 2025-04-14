@@ -1,0 +1,8 @@
+<?php
+
+    $my_str = "Welcome to Nripesh's E-School";
+     
+    // Calculating and displaying string length
+    echo strlen($my_str);
+echo"Code done by Sahil Rupani(2220100301)";
+?>

@@ -1,0 +1,6 @@
+<?php
+echo date("Y-m-d H:i:s");
+echo"\n";
+print_r(localtime(time(),true));
+echo"Code done by Sahil Rupani(2220100301)";
+?>

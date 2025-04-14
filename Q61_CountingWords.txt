@@ -1,0 +1,5 @@
+<?php
+
+    echo str_word_count("Hello world!");
+echo"Code done by Sahil Rupani(2220100301)";
+?>

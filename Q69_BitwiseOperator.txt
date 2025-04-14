@@ -1,0 +1,15 @@
+<?php $First = 5; 
+	$second = 3; 
+    // Bitwise AND 
+	$answer = $First & $second; 
+	print_r("Bitwise & of 5 and 3 is $answer \n");
+	// Bitwise OR 
+	$answer = $First | $second; 
+	print_r("Bitwise | of 5 and 3 is $answer\n"); 
+	// Bitwise XOR 
+	$answer = $First ^ $second; 
+	print_r("Bitwise ^ of 5 and 3 is $answer\n"); 
+	// Bitwise NOT 
+	$answer = ~$First; 
+	print_r("Bitwise ~ of 5 is $answer\n"); 
+?>

@@ -1,0 +1,6 @@
+<?php
+
+    echo str_replace("world", "Dolly", "Hello world!");
+echo"Code done by Sahil Rupani(2220100301)";
+
+?>
