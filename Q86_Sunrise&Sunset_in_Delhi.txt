@@ -1,0 +1,22 @@
+<?php
+// Coordinates for New Delhi, India
+$latitude = 28.6139;
+$longitude = 77.2090;
+$zenith = 90 + 50/60; // official zenith
+$offset = 5.5; // India Standard Time (IST)
+
+// Current date
+$date = date("Y-m-d <br>");
+echo $date;
+
+// Sunrise
+$sunrise = date_sunrise(strtotime($date), SUNFUNCS_RET_STRING, $latitude, $longitude, $zenith, $offset);
+
+// Sunset
+$sunset = date_sunset(strtotime($date), SUNFUNCS_RET_STRING, $latitude, $longitude, $zenith, $offset);
+
+echo "Sunrise in New Delhi: $sunrise IST<br>";
+echo "Sunset in New Delhi: $sunset IST<br>";
+echo"Code done by Sahil Rupani(2220100301)"
+
+?>
